@@ -190,6 +190,7 @@ body {
   padding: 70px 60px;
   align-self: flex-start;
   position: relative;
+  margin-top: 5rem;
 }
 
 .about_me_title {
@@ -361,4 +362,17 @@ body {
   color: #0080FF;
   scroll-behavior: inherit;
   box-shadow: 0 0 4px 1px #0080FF;
+}
+
+
+/*chatbot Placing*/
+df-messenger {
+    margin-right: 50px;
+}  
+    /* Shifts left by adding right margin */
+
+
+/* Or for iframe */
+iframe {
+    margin-right: 50px;
 }
